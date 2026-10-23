@@ -1,7 +1,7 @@
 # Episode 001 delivery status
 
 - Full MP4 rendered and decoded successfully: 60.000 seconds, 1,800 frames,
-  1080×1920, 30 fps, H.264/yuv420p, stereo AAC, 38,808,056 bytes.
+  1080×1920, 30 fps, H.264/yuv420p, stereo AAC, 38,488,173 bytes.
 - A five-second preview was rendered and checked before full rendering.
 - Visual contact sheet checked for all five scenes and the starting shot.
 - All audio is locally synthesized, with no speech or music.

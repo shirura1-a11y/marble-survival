@@ -72,7 +72,7 @@ def make_stage(st):
   mesh[steel]+=box((0,0,-.7),(9,9,1.4));mesh[gold]+=box((0,0,.05),(6,6,.1))
  else:
   width=st['width']; segs=180 if kind=='spiral' else 120
-  for j in range(segs):
+  for j in range(-12 if kind=='hammer' else 0,segs):
    s0=j/segs;s1=(j+1)/segs;mid=(s0+s1)/2
    hole=kind=='hammer' and any(abs(mid*st['length']-p)<1.1 for p in st['pits'])
    if hole:
@@ -127,7 +127,7 @@ for k,st in enumerate(cfg['stages'][:4]):
   for q,j in enumerate(losing):drop[j]=.70+q*.23
  states=np.zeros((steps,n,3),dtype='f4'); dt=1/120
  for step in range(steps):
-  t=step*dt;u=t/secs;progress=np.clip(u*1.12-lag,0,1.04)
+  t=step*dt;u=t/secs;progress=np.clip(u*1.12-lag,-.10 if k==0 else 0,1.04)
   # track guide force, wall restitution, sweeper impulses.
   vel+=(-lane*.8-vel*.8+np.sin(t*2+np.arange(n))*1.6)*dt;lane+=vel*dt
   for j in range(n):
