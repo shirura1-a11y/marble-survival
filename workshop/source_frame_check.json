@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_frames": 840,
+  "dimensions": [
+    540,
+    960
+  ],
+  "fps": 12,
+  "all_images_decoded": true
+}

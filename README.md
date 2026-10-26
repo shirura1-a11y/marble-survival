@@ -1,3 +1,15 @@
+# 新作：ビー玉の小さな工房
+
+70秒・縦9:16の工作装置CGアニメーションです。木製レール、ドミノ、シーソー、滑車、階段、紙の通路、真鍮チャイムが連動します。オリジナルBGM・効果音付き、ナレーションなし。
+
+**[完成MP4を直接ダウンロード](https://github.com/shirura1-a11y/marble-survival/raw/refs/heads/workshop-film/workshop/workshop_chain_70s.mp4)**
+
+[制作方法・仕様・編集用ソース](workshop/README.md)。実写ではなく、ドミノの剛体シミュレーションと演出用アニメーションを組み合わせた作品です。
+
+---
+
+以下は既存のMarble Survivalレース作品の説明です。
+
 # MARBLE SURVIVAL
 
 Free, reproducible 3D short-video series renderer. Episode 001 is 60 seconds,

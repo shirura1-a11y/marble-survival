@@ -1,0 +1,14 @@
+{
+  "source_frames": 840,
+  "source_size": [
+    540,
+    960
+  ],
+  "source_fps": 12,
+  "target_size": [
+    720,
+    1280
+  ],
+  "target_fps": 24,
+  "complete": true
+}

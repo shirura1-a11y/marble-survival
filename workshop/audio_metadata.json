@@ -1,0 +1,16 @@
+{
+  "original_composition": true,
+  "external_samples": false,
+  "sample_rate": 48000,
+  "seconds": 70,
+  "peak": 0.28648024797439575,
+  "effects": [
+    "glass rolling on wood",
+    "domino impacts",
+    "seesaw release",
+    "pulley creak",
+    "stair impacts",
+    "paper rustle",
+    "three brass chimes"
+  ]
+}
